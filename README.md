@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Find Jobs ReactJS
+
+Job searching app built with Context API & React Hooks. [Demo Link](https://find-jobs-reactjs.vercel.app/)
+
+![Screenshot](https://github.com/emineozgenel/find-jobs-reactjs/blob/main/public/screenshot.png)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
