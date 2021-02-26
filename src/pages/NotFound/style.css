@@ -1,0 +1,89 @@
+.page-404::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: linear-gradient(to right, white 50%, #383838 50%);
+  color: white;
+}
+.page-404 div {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 90px);
+  max-width: 1000px;
+  width: calc(100% - 4rem);
+  margin: 0 auto;
+}
+.page-404 div > * {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 90px);
+  max-width: 500px;
+  width: 100%;
+  padding: 2.5rem;
+}
+.page-404 aside img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.page-404 main {
+  text-align: center;
+}
+.page-404 main h1 {
+  font-family: "Fontdiner Swanky", cursive;
+  font-size: 4rem;
+  color: #FF9800;
+  margin-bottom: 1rem;
+}
+.page-404 a {
+  color: #ffffff;
+}
+.page-404 main p {
+  margin-bottom: 2.5rem;
+  color: #d8d8d8;
+}
+.page-404 main p em {
+  font-style: italic;
+  color: #FF9800;
+}
+.page-404 main button {
+  font-family: "Fontdiner Swanky", cursive;
+  font-size: 1rem;
+  color: #383838;
+  border: none;
+  background-color: #f36a6f;
+  padding: 1rem 2.5rem;
+  transform: skew(-5deg);
+  transition: all 0.1s ease;
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/cursors-eye.png"), auto;
+}
+.page-404 main button:hover {
+  background-color: #c5dc50;
+  transform: scale(1.15);
+}
+@media (max-width: 700px) {
+  .page-404  {
+    background: #383838;
+    font-size: 16px;
+ }
+  .page-404 div {
+    flex-flow: column;
+ }
+  .page-404 div > * {
+    max-width: 700px;
+    height: 100%;
+ }
+  .page-404 aside {
+    background-image: none;
+    background-color: white;
+ }
+  .page-404 aside img {
+    max-width: 300px;
+ }
+}

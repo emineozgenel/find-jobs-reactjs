@@ -1,0 +1,33 @@
+.job-item__content{
+  max-width: 39%;
+  padding: 5px 10px 5px 15px;
+}
+.job-item__content.active{
+  background-color: #fdf4eb;
+}
+
+.job-item {
+  border-left: 1px solid #FF9800;
+  position: relative;
+}
+.job-item__brand, .job-item__date, .job-item__city {
+  color: #666;
+}
+.job-item__type {
+  background-color: #d6fbe0;
+  color: #334680;
+  border-radius: 40px;
+  padding:4px 20px;
+}
+.job-item__type, .job-item__city {
+  font-size: 14px;
+}
+.job-item__date {
+  font-size: 13px;
+}
+.job-item__title {
+  font-weight: 600;
+  font-size: 17px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
