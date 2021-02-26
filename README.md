@@ -1,6 +1,6 @@
 # Find Jobs ReactJS
 
-Job searching app built with Context API & React Hooks. [Demo Link](https://find-jobs-reactjs.vercel.app/)
+Job searching app built with Context API, React Hooks and Back4app API. [Demo Link](https://find-jobs-reactjs.vercel.app/)
 
 ![Screenshot](https://github.com/emineozgenel/find-jobs-reactjs/blob/main/public/screenshot.png)
 
